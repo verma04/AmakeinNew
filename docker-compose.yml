@@ -1,12 +1,12 @@
 version: '2'
 services:
-  amakein-uie:
+  amakein-uii:
     build:
       context: "./"
      
     ports:
       - "3000:3000"
-    container_name: amakein-uie
+    container_name: amakein-uii
     stdin_open: true
     volumes:
       - .:/usr/src/app
