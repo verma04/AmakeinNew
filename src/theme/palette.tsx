@@ -1,4 +1,9 @@
+import { PaletteType } from '@material-ui/core';
+
+
+
 export const light = {
+  palette: {
   "alternate": {
     "main": "rgb(247, 249, 250)",
     "dark": "#e8eaf6",
@@ -29,6 +34,7 @@ export const light = {
     "level1": "#fff",
     "footer": "#1b1642",
   },
+}
 };
 
 export const dark = {
@@ -67,3 +73,6 @@ export const dark = {
     "footer": "#18181f",
   },
 };
+
+
+
