@@ -1,15 +1,11 @@
-import React from 'react';
-import About from 'views/About';
-import Main from 'layouts/Main';
-import WithLayout from 'WithLayout';
+import React from 'react'
 
-const AboutPage = () => {
+function about() {
   return (
-    <WithLayout
-      component={About}
-      layout={Main}
-    />
+    <div>dssdds
+      
+    </div>
   )
-};
+}
 
-export default AboutPage;
+export default about
