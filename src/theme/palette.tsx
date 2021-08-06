@@ -38,6 +38,7 @@ export const light = {
 };
 
 export const dark = {
+    palette: {
   "alternate": {
     "main": "#2D3748",
     "dark": "#24242b",
@@ -72,6 +73,7 @@ export const dark = {
     "level1": "#2D3748",
     "footer": "#18181f",
   },
+}
 };
 
 
