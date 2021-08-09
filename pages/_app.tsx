@@ -1,12 +1,30 @@
-import '../styles/globals.css'
-import type { AppProps } from 'next/app'
-import 'react-lazy-load-image-component/src/effects/opacity.css';
-import 'leaflet/dist/leaflet.css';
-import 'assets/css/index.css';
-import 'swiper/css/swiper.min.css';
-import 'aos/dist/aos.css';
+import type { AppProps /*, AppContext */ } from 'next/app'
+import Nav from '../components/Header/Nav'
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'jquery';
+import 'popper.js'; 
+
 
 function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+  return (
+    <>
+    <Nav />
+  <Component {...pageProps} />
+  </>
+  ) 
 }
+
+// Only uncomment this method if you have blocking data requirements for
+// every single page in your application. This disables the ability to
+// perform automatic static optimization, causing every page in your app to
+// be server-side rendered.
+//
+// MyApp.getInitialProps = async (appContext: AppContext) => {
+//   // calls page's `getInitialProps` and fills `appProps.pageProps`
+//   const appProps = await App.getInitialProps(appContext);
+
+//   return { ...appProps }
+// }
+
 export default MyApp

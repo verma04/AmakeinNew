@@ -6,8 +6,7 @@ import React from 'react';
 const IndexPage = () => {
   return (
    <div>
-
-     sfsfsf
+     sfsfsffvf
    </div>
   )
 };

@@ -2,13 +2,13 @@ import React, { useState, useEffect } from 'react';
 import { ThemeProvider } from '@material-ui/core/styles';
 import { Paper } from '@material-ui/core';
 import CssBaseline from '@material-ui/core/CssBaseline';
-import getTheme from 'theme';
+import getTheme from 'theme'; 
 
 import AOS from 'aos';
 
 export const useDarkMode = () => {
   const [themeMode, setTheme] = useState('light');
-  const [mountedComponent, setMountedComponent] = useState(false);
+  const [mountedComponent, setMountedComponent] = us eState(false);
 
   const setMode = (mode:any) => {
     window.localStorage.setItem('themeMode', mode);
