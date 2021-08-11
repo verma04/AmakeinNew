@@ -1,16 +1,18 @@
 import type { AppProps /*, AppContext */ } from 'next/app'
-import Nav from '../components/Header/Nav'
+import Nav from '../components/Header/Header'
+import Footer from '../components/Footer/Footer'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'jquery';
 import 'popper.js'; 
-
-
+import '../styles/nav.css'
+import '../styles/globals.css'
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
     <Nav />
   <Component {...pageProps} />
+  <Footer />
   </>
   ) 
 }

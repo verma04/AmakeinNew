@@ -1,14 +1,10 @@
-import React from 'react';
-// import IndexView from 'views/IndexView';
-// import Main from 'layouts/Main';
-// import WithLayout from 'WithLayout';
+import Home from '../components/HomePage/Home'
+function home() {
+    return (
+        <div>
+            <Home />
+        </div>   
+    )
+}
 
-const IndexPage = () => {
-  return (
-   <div>
-     sfsfsffvf
-   </div>
-  )
-};
-
-export default IndexPage;
+export default home

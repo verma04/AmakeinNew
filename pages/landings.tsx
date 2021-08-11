@@ -1,6 +1,6 @@
 import React from 'react'
 
-function account() {
+function landings() {
     return (
         <div>
             
@@ -8,4 +8,4 @@ function account() {
     )
 }
 
-export default account
+export default landings
