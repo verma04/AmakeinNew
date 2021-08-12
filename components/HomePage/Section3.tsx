@@ -25,7 +25,7 @@ function Section3() {
                             </div>
                             <div className="col-lg-6 col-md-6 col-sm-12">
                                 <div className="background-section-image">
-                                    <Image src={banner} alt="logo" layout = "responsive"/>
+                                    <Image src={banner} alt="logo" layout="responsive" />
                                 </div>
                             </div>
                         </div>
@@ -58,82 +58,82 @@ function Section3() {
                             </div>
                             <div className="col-lg-6 col-md-6 col-sm-12">
                                 <div className="right-side-content">
-                                <div className="right-side-content-position">
-                                    <h3>The powerful and flexible theme for all kinds of businesses</h3>
-                                    <h6>Whether you're creating a subscription service, an on-demand marketplace, an e-commerce store, or a portfolio showcase, theFront helps you create the best possible product for your users.</h6>
-                                </div>
+                                    <div className="right-side-content-position">
+                                        <h3>The powerful and flexible theme for all kinds of businesses</h3>
+                                        <h6>Whether you're creating a subscription service, an on-demand marketplace, an e-commerce store, or a portfolio showcase, theFront helps you create the best possible product for your users.</h6>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div className = "design-system">
+                        <div className="design-system">
                             <h3>An experience you'd expect from a design system</h3>
-                            <div className = "row">
-                            <div className="col-lg-4 col-md-4 col-sm-6">
-                                    <div className= "cards">
-                                        <div className="icons"></div>    
-                                        <div className = "icon-heading">
+                            <div className="row">
+                                <div className="col-lg-4 col-md-4 col-sm-6">
+                                    <div className="cards">
+                                        <div className="icons"></div>
+                                        <div className="icon-heading">
                                             <h6>Atomic</h6>
                                         </div>
-                                        <div className = "icon-description">
+                                        <div className="icon-description">
                                             <p>theFront follows atomic design methodologies for all components.</p>
                                         </div>
                                     </div>
-                            </div>
-                            <div className="col-lg-4 col-md-4 col-sm-6">
-                                    <div className= "cards">
-                                        <div className="icons"></div>    
-                                        <div className = "icon-heading">
+                                </div>
+                                <div className="col-lg-4 col-md-4 col-sm-6">
+                                    <div className="cards">
+                                        <div className="icons"></div>
+                                        <div className="icon-heading">
                                             <h6>Theamable</h6>
                                         </div>
-                                        <div className = "icon-description">
+                                        <div className="icon-description">
                                             <p>theFront follows atomic design methodologies for all components.</p>
                                         </div>
                                     </div>
-                            </div>
-                            <div className="col-lg-4 col-md-4 col-sm-6">
-                                    <div className= "cards">
-                                        <div className="icons"></div>    
-                                        <div className = "icon-heading">
+                                </div>
+                                <div className="col-lg-4 col-md-4 col-sm-6">
+                                    <div className="cards">
+                                        <div className="icons"></div>
+                                        <div className="icon-heading">
                                             <h6>Composable</h6>
                                         </div>
-                                        <div className = "icon-description">
+                                        <div className="icon-description">
                                             <p>theFront follows atomic design methodologies for all components.</p>
                                         </div>
                                     </div>
-                            </div>
-                            <div className="col-lg-4 col-md-4 col-sm-6">
-                                    <div className= "cards">
-                                        <div className="icons"></div>    
-                                        <div className = "icon-heading">
+                                </div>
+                                <div className="col-lg-4 col-md-4 col-sm-6">
+                                    <div className="cards">
+                                        <div className="icons"></div>
+                                        <div className="icon-heading">
                                             <h6>Light and Dark UI</h6>
                                         </div>
-                                        <div className = "icon-description">
+                                        <div className="icon-description">
                                             <p>theFront follows atomic design methodologies for all components.</p>
                                         </div>
                                     </div>
-                            </div>
-                            <div className="col-lg-4 col-md-4 col-sm-6">
-                                    <div className= "cards">
-                                        <div className="icons"></div>    
-                                        <div className = "icon-heading">
+                                </div>
+                                <div className="col-lg-4 col-md-4 col-sm-6">
+                                    <div className="cards">
+                                        <div className="icons"></div>
+                                        <div className="icon-heading">
                                             <h6>Developer Experience</h6>
                                         </div>
-                                        <div className = "icon-description">
+                                        <div className="icon-description">
                                             <p>theFront follows atomic design methodologies for all components.</p>
                                         </div>
                                     </div>
-                            </div>
-                            <div className="col-lg-4 col-md-4 col-sm-6">
-                                    <div className= "cards">
-                                        <div className="icons"></div>    
-                                        <div className = "icon-heading">
+                                </div>
+                                <div className="col-lg-4 col-md-4 col-sm-6">
+                                    <div className="cards">
+                                        <div className="icons"></div>
+                                        <div className="icon-heading">
                                             <h6>Continuous Updates</h6>
                                         </div>
-                                        <div className = "icon-description">
+                                        <div className="icon-description">
                                             <p>theFront follows atomic design methodologies for all components.</p>
                                         </div>
                                     </div>
-                            </div>
+                                </div>
                             </div>
                         </div>
                     </div>

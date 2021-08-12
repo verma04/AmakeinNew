@@ -16,6 +16,9 @@ html,body {
 * {
   box-sizing: border-box;
 }
+li{
+  list-style-type: none;
+}
 h2 {
   font-weight: 900;
   font-size: 3.75rem;

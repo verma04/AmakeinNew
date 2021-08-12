@@ -190,3 +190,31 @@ padding: 0;
     font-size: 0.9375rem;
     border-radius: 4px;
 }
+/*footer*/
+.footer-wrapper {
+    background: #1b1642;
+    width: 100%;
+}
+.service-parent, .settings-parent, .career-parent {
+    display: flex;
+}
+.footer {
+    padding: 96px 0px;
+}
+.footer p{
+    text-transform: uppercase;
+    color:#ffffff;
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+.footer a{
+    text-transform: capitalize;
+    color: rgba(255,255,255,.6);
+    font-size: 0.875rem;
+    font-weight: 400;
+    text-decoration: none;
+}
+.footer-logo-image{
+    width: 120px;
+    height: 32px;
+}
