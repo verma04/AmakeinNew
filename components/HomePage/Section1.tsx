@@ -10,6 +10,7 @@ function Section1() {
                     <div className="left-side">
                         <div className="left-side-text">
                             <h2> A modern design system for your new </h2>
+                            <h2>online course</h2>
                             <h6>TheFront will make your product look modern and professional while saving you precious time.</h6>
                             <div className="links">
                                 <Link href="/about">

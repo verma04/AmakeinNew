@@ -5,6 +5,7 @@ function Section4() {
         <div>
             <section className="second-last-section">
                 <div className="container">
+                    <div className = "first-section">
                     <div className="second-last-heading">
                         <h4>
                             People have had fantastic experiences using theFront.<br />
@@ -153,6 +154,7 @@ function Section4() {
                                 </ul>
                             </div>
                         </div>
+                    </div>
                     </div>
                     <hr />
                 </div>

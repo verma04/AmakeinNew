@@ -1,33 +1,3 @@
-.header, .home{
-    width:100%;
-    position: relative;
-}
-.header ul.navbar-nav {
-    margin-left: auto;
-}   
-.header .nav-item{
-    padding: 0 20px;
-}
-.header .documentation {
-    border: 1px solid rgba(0, 0, 0, 0.23);
-    padding: 5px 15px;
-    text-transform: capitalize;
-}
-.header .nav-link.buy-now{
-    color: #fff;
-    background-color: #3f51b5;
-    box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
-    padding: 6px 16px;
-    border-radius: 4px; 
-    text-transform: uppercase;
-}
-.header hr, .home hr{
-    margin: 0;
-}
-.logo-div {
-    width: 160px;
-}
-
 /* home css */
 .left-side{
     width: 100%;
@@ -52,6 +22,7 @@
 }
 .links {
     margin-top: 3%;
+    padding :8px;
 }
 .links a {
     border: 1px solid rgba(63, 81, 181, 0.5);
@@ -79,10 +50,17 @@
     max-width: 700px;
     margin: 0 auto;
     text-align: center;
+    padding: 8px;
+}
+.mid-section-heading h2, .mid-section-heading h6{
+    padding: 8px;
 }
 section.mid-section {
     padding: 96px;
 } 
+.root {
+    padding: 16px;
+}
 .root-icon{
     background: #e8eaf6;
     width: 70px;
@@ -91,6 +69,7 @@ section.mid-section {
 }  
 .root-icon-heading, .root-icon-content {
     padding: 8px 0;
+    color : #2d3748;
 }
 .background-section{
     background: rgb(247, 249, 250);
@@ -114,6 +93,10 @@ section.mid-section {
     align-items: center;
     height: 100%;
 }
+.right-side-content-position h3, .right-side-content-position h6 {
+    padding: 8px;
+}
+
 .design-system h3{
     text-align: center;
 }
@@ -133,6 +116,12 @@ section.mid-section {
     padding: 48px 24px;
     margin: 8px 0;
     border-radius: 4px;
+}
+.column-heading {
+    padding: 8px;
+}
+.column-heading h3, .column-heading h6{
+    padding: 8px;
 }
 .icon-heading{
     padding: 8px;  
@@ -159,6 +148,9 @@ section.mid-section {
     list-style-type: none;
     color: #2d3748;
 }
+.list-content p:nth-child(1) {
+    color: #2d3748;
+}
 .flex-card1 ul {
 padding: 0;
 }
@@ -166,6 +158,7 @@ padding: 0;
     box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
     border-radius: 4px;
     padding: 16px;
+    margin-bottom: 24px;
 }
 .list-content-content{
     margin-top:8px;
@@ -190,31 +183,76 @@ padding: 0;
     font-size: 0.9375rem;
     border-radius: 4px;
 }
-/*footer*/
-.footer-wrapper {
-    background: #1b1642;
-    width: 100%;
+.second-last-heading h4{
+    font-weight: 700;
+    font-size: 2.0243rem;
+    color: #2d3748;
+    margin-bottom: 32px;
 }
-.service-parent, .settings-parent, .career-parent {
-    display: flex;
+.second-last-heading{
+    margin-bottom: 32px;
 }
-.footer {
-    padding: 96px 0px;
+.first-section{
+    padding: 96px 64px;
 }
-.footer p{
-    text-transform: uppercase;
-    color:#ffffff;
-    font-size: 0.875rem;
-    font-weight: 400;
+.flex-card ul {
+    padding-left: 0;
 }
-.footer a{
-    text-transform: capitalize;
-    color: rgba(255,255,255,.6);
-    font-size: 0.875rem;
-    font-weight: 400;
-    text-decoration: none;
+.started {
+    padding: 8px;
 }
-.footer-logo-image{
-    width: 120px;
-    height: 32px;
+.started-content-button{
+    padding: 8px;
+}
+@media (max-width:767px){
+    .left-side-text {
+            height: 450px;
+    }
+    .left-side-text {
+        width: 100%;
+    }
+    .right-image{
+        display:none;
+    }
+    .links {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0;
+    }
+    .children {
+        display: inherit;
+    }
+    .links a:nth-child(2) {
+        margin-left: 0;
+        margin-top: 2%;
+    }
+    .first-section {
+        padding: 48px 16px;
+    }
+    .second-last-heading h4 {
+        font-size: 1.5625rem;
+    }
+    .started-complex {
+        padding: 48px 16px;
+    }
+    section.mid-section {
+        padding: 48px 0;
+    }
+    .mid-section-heading span {
+        font-size: 2.375rem;
+        margin-left: 12px;
+    }
+    .children, .background-section-image {
+        padding: 8px;
+    }
+   .ordering{
+       order:2;
+   }
+   .design-system {
+    padding: 48px 16px;
+}
+.column-heading {
+    text-align: center;
+}
 }

@@ -9,7 +9,7 @@ function Section3() {
                 <div className="background-section-content">
                     <div className="container">
                         <div className="row">
-                            <div className="col-lg-6 col-md-6 col-sm-12">
+                            <div className="col-lg-6 col-md-12 col-sm-12">
                                 <div className="column-heading">
                                     <h3>Less code. More speed</h3>
                                     <h6>theFront is a simple, modular and accessible component library that gives you the building blocks you need to build your React applications.</h6>
@@ -23,14 +23,14 @@ function Section3() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-6 col-md-6 col-sm-12">
+                            <div className="col-lg-6 col-md-12 col-sm-12 ">
                                 <div className="background-section-image">
                                     <Image src={banner} alt="logo" layout="responsive" />
                                 </div>
                             </div>
                         </div>
                         <div className="row">
-                            <div className="col-lg-6 col-md-6 col-sm-12">
+                            <div className="col-lg-6 col-md-6 col-sm-12 ordering">
                                 <div className="children">
                                     <div className="left-side-content">
                                         <div className="left-side-content-heading">
@@ -68,7 +68,7 @@ function Section3() {
                         <div className="design-system">
                             <h3>An experience you'd expect from a design system</h3>
                             <div className="row">
-                                <div className="col-lg-4 col-md-4 col-sm-6">
+                                <div className="col-lg-4 col-md-6 col-sm-6">
                                     <div className="cards">
                                         <div className="icons"></div>
                                         <div className="icon-heading">
@@ -79,7 +79,7 @@ function Section3() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-lg-4 col-md-4 col-sm-6">
+                                <div className="col-lg-4 col-md-6 col-sm-6">
                                     <div className="cards">
                                         <div className="icons"></div>
                                         <div className="icon-heading">
@@ -90,7 +90,7 @@ function Section3() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-lg-4 col-md-4 col-sm-6">
+                                <div className="col-lg-4 col-md-6 col-sm-6">
                                     <div className="cards">
                                         <div className="icons"></div>
                                         <div className="icon-heading">
@@ -101,7 +101,7 @@ function Section3() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-lg-4 col-md-4 col-sm-6">
+                                <div className="col-lg-4 col-md-6 col-sm-6">
                                     <div className="cards">
                                         <div className="icons"></div>
                                         <div className="icon-heading">
@@ -112,7 +112,7 @@ function Section3() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-lg-4 col-md-4 col-sm-6">
+                                <div className="col-lg-4 col-md-6 col-sm-6">
                                     <div className="cards">
                                         <div className="icons"></div>
                                         <div className="icon-heading">
@@ -123,7 +123,7 @@ function Section3() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-lg-4 col-md-4 col-sm-6">
+                                <div className="col-lg-4 col-md-6 col-sm-6">
                                     <div className="cards">
                                         <div className="icons"></div>
                                         <div className="icon-heading">

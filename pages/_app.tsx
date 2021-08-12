@@ -5,8 +5,11 @@ import Footer from '../components/Footer/Footer'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'jquery';
 import 'popper.js'; 
-import '../styles/nav.css'
 import '../styles/globals.css'
+import '../styles/header.css'
+import '../styles/footer.css'
+import '../styles/indexPage.css'
+
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>

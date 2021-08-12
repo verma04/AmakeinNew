@@ -8,7 +8,7 @@ function Section2() {
                 <div className="container">
                     <div className="mid-section-heading">
                         <h2>
-                            Build accessible React apps<span> with speed</span>
+                            Build accessible React apps<span>with speed</span>
                         </h2>
                         <h6>Build a beautiful, modern website with flexible, fully customizable, atomic Material UI components.</h6>
                     </div>
